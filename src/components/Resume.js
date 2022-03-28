@@ -1,20 +1,23 @@
 import Footer from './Footer';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 export default function Resume() {
     return (
         <div className="flex flex-col h-full w-full">
             <div className="text-left font-semibold text-3xl mb-12">
-                <span className="text-primary">Scott Quach</span> - Resume
+                <Link to="/" className="text-primary hover:underline">
+                    Scott Quach
+                </Link>{' '}
+                - Resume
             </div>
             <div className="text-left">
-                I work at T-Mobile, building collaborative solutions to complex data workflow. Before I improved
-                health care through native Android experiences and IoT medical devices. I created and continue to lead the
-                development of T-Mobile's enterprise data platform that today manages multi-billion dollar processes.
+                I work at T-Mobile, building collaborative solutions to complex data workflow. Before I improved health care
+                through native Android experiences and IoT medical devices. I created and continue to lead the development of
+                T-Mobile's enterprise data platform that today manages multi-billion dollar processes.
             </div>
 
             <div className="flex flex-col gap-12 mt-16">
-
                 <div className="experience-grid">
                     <div className="text-lg">2021 - Today</div>
                     <div className="text-left">
