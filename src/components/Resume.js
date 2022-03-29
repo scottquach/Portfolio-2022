@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Resume() {
     return (
-        <div className="flex flex-col h-full w-full">
+        <div className="flex flex-col h-full w-full flex-1">
             <div className="text-left font-semibold text-3xl mb-12">
                 <Link to="/" className="text-primary hover:underline">
                     Scott Quach
