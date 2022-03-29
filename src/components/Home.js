@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 export default function Home() {
@@ -12,16 +13,16 @@ export default function Home() {
             </div>
 
             <p className="text-left my-10">
-                Software engineer <span className="text-primary">@T-Mobile</span> - I've been with T-Mobile since 2018 building
-                leading data platforms - Before that doing some Android work at <span className="text-primary">@Accolade</span> -
-                Here's a <span className="text-primary">resume</span> for the curious - I moonlight in photography, you can find
+                Software engineer <a className="text-primary" href="https://www.t-mobile.com" target="_blank">@T-Mobile</a> - I've been with T-Mobile since 2018 building
+                leading data platforms - Before that doing some Android work at <span className="text-primary" href="https://www.accolade.com" target="_blank">@Accolade</span> -
+                Here's a <Link to="/resume" className="text-primary cursor-pointer hover:underline">resume</Link> for the curious - I moonlight in photography, you can find
                 my work <span className="text-primary">here</span>.
             </p>
 
             <div className="text-xl text-left font-bold my-5">TL;DR</div>
             <div className="flex flex-col items-start mb-10 text-primary">
                 <div className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75">
-                    <div>Resume and experience</div>
+                    <Link to="/resume">Resume and experience</Link>
                 </div>
                 <div className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75">
                     <div>Photography</div>
