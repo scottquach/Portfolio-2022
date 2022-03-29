@@ -22,17 +22,17 @@ export default function Resume() {
                     <div className="text-lg">2021 - Today</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer</div>
-                        <div className="text-primary opacity-60">T-Mobile</div>
+                        <div className="text-primary opacity-50">T-Mobile</div>
                     </div>
                     <div className="text-lg">2020 - 2021</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer - Associate</div>
-                        <div className="text-primary opacity-60">T-Mobile</div>
+                        <div className="text-primary opacity-50">T-Mobile</div>
                     </div>
                     <div className="text-lg">2018 - 2020</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer - Intern</div>
-                        <div className="text-primary opacity-60">T-Mobile</div>
+                        <div className="text-primary opacity-50">T-Mobile</div>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ export default function Resume() {
                     <div className="text-lg">2018</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">IoT Connectivity Developer - Intern</div>
-                        <div className="text-primary opacity-60">Novo Nordisk</div>
+                        <div className="text-primary opacity-50">Novo Nordisk</div>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@ export default function Resume() {
                     <div className="text-lg">2017</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Android Developer - Intern</div>
-                        <div className="text-primary opacity-60">Accolade</div>
+                        <div className="text-primary opacity-50">Accolade</div>
                     </div>
                 </div>
 
