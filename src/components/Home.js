@@ -19,7 +19,7 @@ export default function Home() {
                     @T-Mobile
                 </a>{' '}
                 - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some Android work at{' '}
-                <a className="text-primary hover:underline" href="https://www.accolade.com" target="_blank">
+                <a className="text-primary hover:underline" href="https://www.accolade.com" target="_blank" rel="noreferrer">
                     @Accolade
                 </a>{' '}
                 - Here's a{' '}
@@ -27,7 +27,12 @@ export default function Home() {
                     resume
                 </Link>{' '}
                 for the curious - I moonlight in photography, you can find my work{' '}
-                <a className="text-primary hover:underline" href="https://www.instagram.com/jpg.by.scottq/" target="_blank">
+                <a
+                    className="text-primary hover:underline"
+                    href="https://www.instagram.com/jpg.by.scottq/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     here
                 </a>
                 .
@@ -42,6 +47,7 @@ export default function Home() {
                     className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75"
                     href="https://www.instagram.com/jpg.by.scottq/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <div>Photography</div>
                 </a>
@@ -53,6 +59,7 @@ export default function Home() {
                     className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75"
                     href="https://github.com/scottquach"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <i class="fa-brands fa-github"></i>
                     <div>@scottquach</div>
@@ -61,6 +68,7 @@ export default function Home() {
                     className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75"
                     href="https://www.linkedin.com/in/scott-quach/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <i class="fa-brands fa-linkedin"></i>
                     <div>@scottquach</div>
@@ -69,6 +77,7 @@ export default function Home() {
                     className="flex gap-2 px-2 py-1 text-primary cursor-pointer rounded items-baseline hover:bg-secondary duration-75"
                     href="https://www.instagram.com/jpg.by.scottq/"
                     target="_blank"
+                    rel="noreferrer"
                 >
                     <i class="fa-brands fa-instagram"></i>
                     <div>@jpg.by.scottq</div>
