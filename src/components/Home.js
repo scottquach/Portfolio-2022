@@ -9,11 +9,11 @@ export default function Home() {
                     <header className="text-4xl font-bold">Scott Quach</header>
                     <div className="text-xl opacity-90">Digital creative ( Developer / Photographer )</div>
                 </div>
-                <img className="profile-image" src={require('../assets/profile.jpg')}></img>
+                <img className="profile-image" alt="Profile" src={require('../assets/profile.jpg')}></img>
             </div>
 
             <p className="text-left my-10">
-                Software engineer <a className="text-primary" href="https://www.t-mobile.com" target="_blank">@T-Mobile</a> - I've been with T-Mobile since 2018 building
+                Software engineer <a className="text-primary" href="https://www.t-mobile.com" target="_blank" rel="noreferrer">@T-Mobile</a> - I've been with T-Mobile since 2018 building
                 leading data platforms - Before that doing some Android work at <span className="text-primary" href="https://www.accolade.com" target="_blank">@Accolade</span> -
                 Here's a <Link to="/resume" className="text-primary cursor-pointer hover:underline">resume</Link> for the curious - I moonlight in photography, you can find
                 my work <span className="text-primary">here</span>.
