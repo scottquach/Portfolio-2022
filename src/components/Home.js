@@ -8,7 +8,7 @@ export default function Home() {
             <div className="flex justify-between">
                 <div className="flex flex-col items-start">
                     <header className="text-4xl font-bold">Scott Quach</header>
-                    <div className="text-left text-xl opacity-90">Digital creative ( Developer / Photographer )</div>
+                    <div className="text-left text-xl opacity-90">Digital Creator ( Developer / Photographer )</div>
                 </div>
                 <img className="profile-image" alt="Profile" src={require('../assets/profile.jpg')}></img>
             </div>
