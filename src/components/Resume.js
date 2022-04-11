@@ -17,7 +17,7 @@ export default function Resume() {
                 T-Mobile's enterprise data platform that today manages multi-billion dollar processes.
             </div>
 
-            <div className="flex flex-col gap-12 mt-16">
+            <div className="flex flex-col mt-16">
                 <div className="experience-grid">
                     <div className="text-lg">2021 - Today</div>
                     <div className="text-left">
@@ -36,6 +36,8 @@ export default function Resume() {
                     </div>
                 </div>
 
+                <div className="divider"></div>
+
                 <div className="experience-grid">
                     <div className="text-lg">2018</div>
                     <div className="text-left">
@@ -44,6 +46,8 @@ export default function Resume() {
                     </div>
                 </div>
 
+                <div className="divider"></div>
+
                 <div className="experience-grid">
                     <div className="text-lg">2017</div>
                     <div className="text-left">
@@ -51,6 +55,8 @@ export default function Resume() {
                         <div className="text-primary text-sm opacity-60">Accolade</div>
                     </div>
                 </div>
+
+                <div className="divider"></div>
 
                 <div className="experience-grid">
                     <div className="text-lg">1998 - Today</div>

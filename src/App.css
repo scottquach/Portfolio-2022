@@ -37,6 +37,14 @@
     column-gap: 1rem;
 }
 
+.divider {
+    border-top: 2px solid whitesmoke;
+    opacity: .05;
+    width: 6rem;
+    /* width: 0rem; */
+    margin: 2rem 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
