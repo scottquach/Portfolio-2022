@@ -3,9 +3,14 @@
     flex-direction: column;
     width: 100vw;
     min-height: 100vh;
+    background-color: #F0E7DB;
+    color: #1c1c1f;
+    text-align: center;
+}
+
+.App.dark {
     background-color: #1c1c1f;
     color: #ffffff;
-    text-align: center;
 }
 
 .container {
@@ -23,10 +28,14 @@
     width: 4.5rem;
     height: 4.5rem;
     border-radius: 50%;
-    border: whitesmoke;
+    border: #e4e4e7;
     border-width: 2px;
     border-style: solid;
     image-rendering: -webkit-optimize-contrast;
+}
+
+.dark .profile-image {
+    border: whitesmoke;
 }
 
 .experience-grid {
@@ -38,11 +47,15 @@
 }
 
 .divider {
-    border-top: 2px solid whitesmoke;
-    opacity: .05;
+    border-top: 2px solid #262626;
+    opacity: 0.10;
     width: 6rem;
     /* width: 0rem; */
     margin: 2rem 0;
+}
+
+.dark .divider {
+    border-top: 2px solid whitesmoke;
 }
 
 @media (prefers-reduced-motion: no-preference) {
