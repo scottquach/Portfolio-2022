@@ -14,7 +14,7 @@ export default function Resume() {
             <div className="text-left">
                 Currently at T-Mobile, building collaborative solutions to complex data workflows. I created and lead development
                 of a enterprise data platform that today manages multi-billion dollar processes. Before I improved health care
-                through native Android and IoT medical device experiences.
+                experiences through native Android and IoT medical device development.
             </div>
 
             <div className="flex flex-col mt-16">
