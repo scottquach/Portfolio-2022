@@ -23,7 +23,7 @@ export default function Home() {
                 >
                     @T-Mobile
                 </a>{' '}
-                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some Android work at{' '}
+                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native Android work at{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light"
                     href="https://www.accolade.com"
