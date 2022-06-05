@@ -17,22 +17,22 @@ export default function Resume() {
                 experiences through native Android and IoT medical device development.
             </div>
 
-            <div className="flex flex-col mt-16">
+            <div className="flex flex-col mt-16 mb-16">
                 <div className="experience-grid">
                     <div className="text-lg">2021 - Today</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">T-Mobile</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
                     </div>
                     <div className="text-lg">2020 - 2021</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer - Associate</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">T-Mobile</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
                     </div>
                     <div className="text-lg">2018 - 2020</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Software Engineer - Intern</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">T-Mobile</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
                     </div>
                 </div>
 
@@ -42,7 +42,7 @@ export default function Resume() {
                     <div className="text-lg">2018</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">IoT Connectivity Developer - Intern</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">Novo Nordisk</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">Novo Nordisk</div>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ export default function Resume() {
                     <div className="text-lg">2017</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Android Developer - Intern</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">Accolade</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">Accolade</div>
                     </div>
                 </div>
 
@@ -62,7 +62,7 @@ export default function Resume() {
                     <div className="text-lg">1998 - Today</div>
                     <div className="text-left">
                         <div className="font-semibold text-lg">Life</div>
-                        <div className="text-primary text-sm opacity-75 dark:text-primary-light">Seattle</div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">Seattle</div>
                     </div>
                 </div>
             </div>
