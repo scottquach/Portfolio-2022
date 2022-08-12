@@ -16,16 +16,17 @@ export default function Home() {
             <p className="text-left my-10">
                 Software engineer{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light"
+                    className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.t-mobile.com"
                     target="_blank"
                     rel="noreferrer"
                 >
                     @T-Mobile
                 </a>{' '}
-                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native Android work at{' '}
+                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native Android work
+                at{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light"
+                    className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.accolade.com"
                     target="_blank"
                     rel="noreferrer"
@@ -33,12 +34,12 @@ export default function Home() {
                     @Accolade
                 </a>{' '}
                 - Here's a{' '}
-                <Link to="/resume" className="text-primary cursor-pointer hover:underline dark:text-primary-light">
+                <Link to="/resume" className="text-primary cursor-pointer hover:underline dark:text-primary-light font-medium">
                     résumé
                 </Link>{' '}
                 for the curious - I moonlight in photography, you can find my work{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light"
+                    className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.instagram.com/jpg.by.scottq/"
                     target="_blank"
                     rel="noreferrer"
@@ -51,11 +52,13 @@ export default function Home() {
             <div className="text-xl text-left font-bold my-5">TL;DR</div>
             <div className="flex flex-col items-start mb-10 text-primary">
                 <AppLink>
-                    <Link to="/resume">Résumé and experience</Link>
+                    <Link to="/resume" className="font-medium">
+                        Résumé and experience
+                    </Link>
                 </AppLink>
                 <AppLink>
                     <a href="https://www.instagram.com/jpg.by.scottq/" target="_blank" rel="noreferrer">
-                        <div>Photography</div>
+                        <div className="font-medium">Photography</div>
                     </a>
                 </AppLink>
             </div>
@@ -64,7 +67,7 @@ export default function Home() {
             <div className="flex flex-col items-start center-primary">
                 <AppLink>
                     <a
-                        className="flex gap-2 items-baseline"
+                        className="flex gap-2 items-baseline font-medium"
                         href="https://github.com/scottquach"
                         target="_blank"
                         rel="noreferrer"
@@ -75,7 +78,7 @@ export default function Home() {
                 </AppLink>
                 <AppLink>
                     <a
-                        className="flex gap-2 items-baseline"
+                        className="flex gap-2 items-baseline font-medium"
                         href="https://www.linkedin.com/in/scott-quach/"
                         target="_blank"
                         rel="noreferrer"
@@ -86,7 +89,7 @@ export default function Home() {
                 </AppLink>
                 <AppLink>
                     <a
-                        className="flex gap-2 items-baseline"
+                        className="flex gap-2 items-baseline font-medium"
                         href="https://www.instagram.com/jpg.by.scottq/"
                         target="_blank"
                         rel="noreferrer"
