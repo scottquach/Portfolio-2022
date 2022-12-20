@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Resume() {
     return (
-        <div className="flex flex-col h-full w-full flex-1">
+        <div className="flex flex-col h-full w-full overflow-x-hidden flex-1">
             <div className="text-left font-semibold text-3xl mb-12">
                 <Link to="/" className="text-primary hover:underline dark:text-primary-light">
                     Scott Quach
@@ -12,16 +12,19 @@ export default function Resume() {
                 - Résumé
             </div>
             <div className="text-left">
-                Currently at T-Mobile, building collaborative solutions to complex data workflows. I created and lead development
-                of a enterprise data platform that today manages multi-billion dollar processes. Before I improved health care
-                experiences through native Android and IoT medical device development.
+                Currently at T-Mobile, building collaborative solutions to complex data workflows. I created and lead
+                development of a enterprise data platform that today manages multi-billion dollar processes. Before I
+                improved health care experiences through native Android and IoT medical device development.
             </div>
 
             <div className="flex flex-col mt-16 mb-16">
                 <div className="experience-grid">
                     <div className="text-lg">2021 - Today</div>
                     <div className="text-left">
-                        <div className="font-semibold text-lg">Software Engineer</div>
+                        <div className="mb-1.5">
+                            <div className="font-semibold text-lg">Software Engineer</div>
+                            <span className="opacity-80 text-sm font-medium">2022 Innovator of the Year 🏆</span>
+                        </div>
                         <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
                     </div>
                     <div className="text-lg">2020 - 2021</div>

@@ -23,8 +23,8 @@ export default function Home() {
                 >
                     @T-Mobile
                 </a>{' '}
-                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native Android work
-                at{' '}
+                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native
+                Android work at{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.accolade.com"
@@ -34,7 +34,10 @@ export default function Home() {
                     @Accolade
                 </a>{' '}
                 - Here's a{' '}
-                <Link to="/resume" className="text-primary cursor-pointer hover:underline dark:text-primary-light font-medium">
+                <Link
+                    to="/resume"
+                    className="text-primary cursor-pointer hover:underline dark:text-primary-light font-medium"
+                >
                     résumé
                 </Link>{' '}
                 for the curious - I moonlight in photography, you can find my work{' '}
@@ -67,23 +70,23 @@ export default function Home() {
             <div className="flex flex-col items-start center-primary">
                 <AppLink>
                     <a
-                        className="flex gap-2 items-baseline font-medium"
+                        className="flex gap-2 items-baseline font-medium "
                         href="https://github.com/scottquach"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github fa-fw"></i>
                         <div>@scottquach</div>
                     </a>
                 </AppLink>
                 <AppLink>
                     <a
-                        className="flex gap-2 items-baseline font-medium"
+                        className="flex gap-2 items-baseline font-medium "
                         href="https://www.linkedin.com/in/scott-quach/"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin fa-fw"></i>
                         <div>@scottquach</div>
                     </a>
                 </AppLink>
@@ -94,8 +97,19 @@ export default function Home() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <i className="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-instagram fa-fw"></i>
                         <div>@jpg.by.scottq</div>
+                    </a>
+                </AppLink>
+                <AppLink>
+                    <a
+                        className="flex gap-2 items-baseline font-medium "
+                        href="https://www.youtube.com/@jpegs-by-scott/shorts"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className="fa-brands fa-youtube fa-fw"></i>
+                        <div>@jpegs-by-scott</div>
                     </a>
                 </AppLink>
             </div>

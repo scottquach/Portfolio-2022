@@ -43,7 +43,7 @@
     display: grid;
     grid-template-columns: 8rem auto;
     justify-items: start;
-    row-gap: 0.75rem;
+    row-gap: 1rem;
     column-gap: 1rem;
 }
 
@@ -70,15 +70,14 @@
         width: 90%;
         max-width: 42rem;
         height: 100%;
-        margin: 0 auto;
-        padding: 4rem 0;
+        margin: 4 auto;
     }
 
     .experience-grid {
         display: grid;
         grid-template-columns: 8rem auto;
         justify-items: start;
-        row-gap: 0.75rem;
+        row-gap: 1rem;
         column-gap: 5rem;
     }
 }
