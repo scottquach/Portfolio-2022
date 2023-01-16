@@ -14,7 +14,7 @@ export default function Home() {
             </div>
 
             <p className="text-left my-10">
-                Software engineer{' '}
+                Sr. Software engineer{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.t-mobile.com"
@@ -23,7 +23,7 @@ export default function Home() {
                 >
                     @T-Mobile
                 </a>{' '}
-                - I've been with T-Mobile since 2018 building leading data platforms - Before that doing some native
+                - I've been with T-Mobile since 2018 building enterprise leading data platforms - Before that I did some native
                 Android work at{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium"
@@ -40,7 +40,7 @@ export default function Home() {
                 >
                     résumé
                 </Link>{' '}
-                for the curious - I moonlight in photography, you can find my work{' '}
+                for the curious - I moonlight as a photography, you can find my work{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium"
                     href="https://www.instagram.com/jpg.by.scottq/"

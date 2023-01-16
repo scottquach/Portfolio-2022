@@ -19,7 +19,15 @@ export default function Resume() {
 
             <div className="flex flex-col mt-16 mb-16">
                 <div className="experience-grid">
-                    <div className="text-lg">2021 - Today</div>
+                    <div className="text-lg">2023 - Today</div>
+                    <div className="text-left">
+                        <div className="mb-1.5">
+                            <div className="font-semibold text-lg">Sr. Software Engineer</div>
+                            {/* <span className="opacity-80 text-sm font-medium">2022 Innovator of the Year 🏆</span> */}
+                        </div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
+                    </div>
+                    <div className="text-lg">2021 - 2023</div>
                     <div className="text-left">
                         <div className="mb-1.5">
                             <div className="font-semibold text-lg">Software Engineer</div>
