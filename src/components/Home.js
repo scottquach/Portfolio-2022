@@ -5,28 +5,28 @@ import Footer from './Footer';
 export default function Home() {
     return (
         <div className="flex flex-col w-full h-full flex-1">
-            <div className="flex justify-between">
+            <div className="flex justify-left gap-7">
+                <img className="profile-image" alt="Profile" src={require('../assets/profile.jpg')}></img>
                 <div className="flex flex-col items-start">
                     <header className="text-4xl font-bold">Scott Quach</header>
                     <div className="text-left text-xl opacity-90">Digital Creator ( Developer / Photographer )</div>
                 </div>
-                <img className="profile-image" alt="Profile" src={require('../assets/profile.jpg')}></img>
             </div>
 
             <p className="text-left my-10">
                 Sr. Software engineer{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light font-medium"
+                    className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.t-mobile.com"
                     target="_blank"
                     rel="noreferrer"
                 >
                     @T-Mobile
                 </a>{' '}
-                - I've been with T-Mobile since 2018 building enterprise leading data platforms - Before that I did some native
-                Android work at{' '}
+                - Building enterprise leading data platforms and tools since 2018 - Before that some native Android work
+                at{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light font-medium"
+                    className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.accolade.com"
                     target="_blank"
                     rel="noreferrer"
@@ -36,13 +36,13 @@ export default function Home() {
                 - Here's a{' '}
                 <Link
                     to="/resume"
-                    className="text-primary cursor-pointer hover:underline dark:text-primary-light font-medium"
+                    className="text-primary cursor-pointer hover:underline dark:text-primary-light font-medium underline"
                 >
                     résumé
                 </Link>{' '}
                 for the curious - I moonlight as a photography, you can find my work{' '}
                 <a
-                    className="text-primary hover:underline dark:text-primary-light font-medium"
+                    className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.instagram.com/jpg.by.scottq/"
                     target="_blank"
                     rel="noreferrer"
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="flex flex-col items-start mb-10 text-primary">
                 <AppLink>
                     <Link to="/resume" className="font-medium">
-                        Résumé and experience
+                        Résumé
                     </Link>
                 </AppLink>
                 <AppLink>
