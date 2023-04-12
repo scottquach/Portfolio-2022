@@ -40,7 +40,7 @@ export default function Home() {
                 >
                     résumé
                 </Link>{' '}
-                for the curious - I moonlight as a photography, you can find my work{' '}
+                for the curious - I moonlight as a Photographer, you can find my work{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.instagram.com/jpg.by.scottq/"
