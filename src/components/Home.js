@@ -13,8 +13,8 @@ export default function Home() {
                 </div>
             </div>
 
-            <p className="text-left my-10">
-                Sr. Software engineer{' '}
+            <p className='text-left mt-10 mb-4'>
+                Sr. Software Engineer{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.t-mobile.com"
@@ -22,8 +22,20 @@ export default function Home() {
                     rel="noreferrer"
                 >
                     @T-Mobile
-                </a>{' '}
-                - Building enterprise leading data platforms and tools since 2018 - Before that some native Android work
+                </a>.
+            </p>
+
+            <p className="text-left mb-10">
+                {/* Sr. Software engineer{' '}
+                <a
+                    className="text-primary hover:underline dark:text-primary-light font-medium underline"
+                    href="https://www.t-mobile.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    @T-Mobile
+                </a>{' '} */}
+                Building enterprise leading data platforms and tools since 2018 - Before that did some native Android work
                 at{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium underline"
@@ -55,12 +67,19 @@ export default function Home() {
             <div className="text-xl text-left font-bold my-5">TL;DR</div>
             <div className="flex flex-col items-start mb-10 text-primary">
                 <AppLink>
-                    <Link to="/resume" className="font-medium">
-                        Résumé
+                    <Link to="/resume" className="flex gap-2 items-baseline font-medium ">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span>Résumé</span>
                     </Link>
                 </AppLink>
                 <AppLink>
-                    <a href="https://www.instagram.com/jpg.by.scottq/" target="_blank" rel="noreferrer">
+                    <a
+                        href="https://www.instagram.com/jpg.by.scottq/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="flex gap-2 items-baseline font-medium "
+                    >
+                        <i class="fa-solid fa-camera-retro"></i>
                         <div className="font-medium">Photography</div>
                     </a>
                 </AppLink>

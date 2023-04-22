@@ -4,12 +4,12 @@
     max-width: 100vw;
     min-height: 100vh;
     background-color: #ffffff;
-    color: #1c1c1f;
+    color: #19191b;
     text-align: center;
 }
 
 .App.dark {
-    background-color: #1c1c1f;
+    background-color: #19191b;
     color: #ffffff;
 }
 
