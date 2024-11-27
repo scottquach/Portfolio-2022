@@ -9,7 +9,7 @@ export default function Home() {
                 <img className="profile-image" alt="Profile" src={require('../assets/profile.jpg')}></img>
                 <div className="flex flex-col items-start">
                     <header className="text-3xl md:text-4xl font-bold">Scott Quach</header>
-                    <div className="text-left text-base md:text-xl opacity-90">Digital Creator ( Developer / Photographer )</div>
+                    <div className="text-left text-base md:text-xl opacity-90">Digital Creator ( Engineer / Photographer )</div>
                 </div>
             </div>
 
