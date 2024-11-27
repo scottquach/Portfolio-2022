@@ -13,8 +13,8 @@ export default function Home() {
                 </div>
             </div>
 
-            <p className='text-left mt-10 mb-4'>
-                Sr. Software Engineer{' '}
+            <p className="text-left mt-10 mb-4">
+                Principle Software Engineer{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.t-mobile.com"
@@ -22,7 +22,8 @@ export default function Home() {
                     rel="noreferrer"
                 >
                     @T-Mobile
-                </a>.
+                </a>
+                .
             </p>
 
             <p className="text-left mb-10">
@@ -35,8 +36,8 @@ export default function Home() {
                 >
                     @T-Mobile
                 </a>{' '} */}
-                Building enterprise leading data platforms and tools since 2018 - Before that did some native Android work
-                at{' '}
+                Building enterprise leading data platforms and tools since 2018 - Before that did some native Android
+                work at{' '}
                 <a
                     className="text-primary hover:underline dark:text-primary-light font-medium underline"
                     href="https://www.accolade.com"
@@ -70,6 +71,12 @@ export default function Home() {
                     <Link to="/resume" className="flex gap-2 items-baseline font-medium ">
                         <i class="fa-solid fa-briefcase"></i>
                         <span>Résumé</span>
+                    </Link>
+                </AppLink>
+                <AppLink>
+                    <Link to="/projects" className="flex gap-2 items-baseline font-medium ">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                        <span>Projects</span>
                     </Link>
                 </AppLink>
                 <AppLink>
