@@ -17,6 +17,23 @@ export default function Projects() {
 
             <div className="flex flex-col mt-12 mb-16 gap-7">
                 <div className="text-left">
+                    <a href="https://billsplitai.com/" target="_blank" rel="noreferrer">
+                        <div className="mb-1.5 flex items-center gap-2 hover:underline">
+                            <div className="font-semibold text-lg">Bill Split AI</div>
+                            <i class="fa-solid fa-up-right-from-square text-xs "></i>
+                            {/* <span className="opacity-80 text-sm font-medium text-yellow-200">🏆 Featured Project</span> */}
+                        </div>
+                    </a>
+                    <div className="text-primary text-sm opacity-85 dark:text-primary-light mb-2">
+                        React, AI, Cloudflare
+                    </div>
+                    <p className="text-sm opacity-90">
+                        App that allows you to split a restaurant bill with friends based on a plain English breakdown
+                        of who ordered what. Can analyze a receipt based on a single photo.
+                    </p>
+                </div>
+
+                <div className="text-left">
                     <a href="https://activities-wrapped.scottqglobal.workers.dev/" target="_blank" rel="noreferrer">
                         <div className="mb-1.5 flex items-center gap-2 hover:underline">
                             <div className="font-semibold text-lg">Garmin Wrapped</div>
