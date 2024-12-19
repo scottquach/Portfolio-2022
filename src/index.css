@@ -18,9 +18,8 @@ code {
 }
 
 :root {
-    --color-primary: #eb7a82;
-    --color-secondary: rgb(235, 128, 144, 0.25);
-
+    --color-primary: #0B7189;
+    --color-secondary: rgb(11, 113, 137, 0.20);
     /* --color-primary-light: #a7d4ff; */
     --color-primary-light: #73ecc8;
     --color-secondary-light: rgb(181, 234, 255, 0.25);

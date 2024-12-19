@@ -20,7 +20,15 @@ export default function Resume() {
 
             <div className="flex flex-col mt-16 mb-16">
                 <div className="experience-grid">
-                    <div className="text-lg">2023 - Today</div>
+                    <div className="text-lg">2024 - Today</div>
+                    <div className="text-left">
+                        <div className="mb-1.5">
+                            <div className="font-semibold text-lg">Principle Software Engineer</div>
+                            <span className="opacity-80 text-sm font-medium">Patent granted - US12061713B2 📜</span>
+                        </div>
+                        <div className="text-primary text-sm opacity-85 dark:text-primary-light">T-Mobile</div>
+                    </div>
+                    <div className="text-lg">2023 - 2024</div>
                     <div className="text-left">
                         <div className="mb-1.5">
                             <div className="font-semibold text-lg">Sr. Software Engineer</div>
@@ -32,7 +40,7 @@ export default function Resume() {
                     <div className="text-left">
                         <div className="mb-1.5">
                             <div className="font-semibold text-lg">Software Engineer</div>
-                            <span className="opacity-80 text-sm font-medium text-yellow-200">
+                            <span className="opacity-80 text-sm font-medium text-yellow-700 dark:text-yellow-200">
                                 2022 Innovator of the Year 🏆
                             </span>
                         </div>

@@ -12,10 +12,10 @@ export default function Projects() {
                 - Projects
             </div>
             <p className="text-left">
-                I like building apps that help me with my daily life. Here are some projects I've worked on recently.
+                I like building apps that help me with daily life. Here are some projects I've worked on recently.
             </p>
 
-            <div className="flex flex-col mt-12 mb-16 gap-7">
+            <div className="flex flex-col mt-12 mb-8 gap-7">
                 <div className="text-left">
                     <a href="https://billsplitai.com/" target="_blank" rel="noreferrer">
                         <div className="mb-1.5 flex items-center gap-2 hover:underline">
@@ -34,7 +34,7 @@ export default function Projects() {
                 </div>
 
                 <div className="text-left">
-                    <a href="https://activities-wrapped.scottqglobal.workers.dev/" target="_blank" rel="noreferrer">
+                    <a href="https://garminwrapped.com" target="_blank" rel="noreferrer">
                         <div className="mb-1.5 flex items-center gap-2 hover:underline">
                             <div className="font-semibold text-lg">Garmin Wrapped</div>
                             <i class="fa-solid fa-up-right-from-square text-xs "></i>
