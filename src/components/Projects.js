@@ -48,6 +48,22 @@ export default function Projects() {
                 </div>
 
                 <div className="text-left">
+                    <a href="https://make-a-meal-app.pages.dev/" target="_blank" rel="noreferrer">
+                        <div className="mb-1.5 flex items-center gap-2 hover:underline">
+                            <div className="font-semibold text-lg">Make a Meal</div>
+                            <i class="fa-solid fa-up-right-from-square text-xs "></i>
+                        </div>
+                    </a>
+                    <div className="text-primary text-sm opacity-85 dark:text-primary-light mb-2">
+                        React, AI, Cloudflare
+                    </div>
+                    <p className="text-sm opacity-90">
+                        Convert any Instagram Reel recipe into a step-by-step markdown recipe with ingredients and
+                        AI tips/tricks.
+                    </p>
+                </div>
+
+                <div className="text-left">
                     <a href="https://garminwrapped.com" target="_blank" rel="noreferrer">
                         <div className="mb-1.5 flex items-center gap-2 hover:underline">
                             <div className="font-semibold text-lg">Garmin Wrapped</div>
