@@ -17,6 +17,20 @@ export default function Projects() {
 
             <div className="flex flex-col mt-12 mb-8 gap-7">
                 <div className="text-left">
+                    <a href="https://www.flowjournalapp.com/" target="_blank" rel="noreferrer">
+                        <div className="mb-1.5 flex items-center gap-2 hover:underline">
+                            <div className="font-semibold text-lg">Flow Journal</div>
+                            <i class="fa-solid fa-up-right-from-square text-xs "></i>
+                        </div>
+                    </a>
+                    <div className="text-primary text-sm opacity-85 dark:text-primary-light mb-2">
+                        Next.js, AI, Vercel, Neon DB
+                    </div>
+                    <p className="text-sm opacity-90">
+                        Think It. Write It. Go. A journal meant for writing, not editing.
+                    </p>
+                </div>
+                <div className="text-left">
                     <a href="https://billsplitai.com/" target="_blank" rel="noreferrer">
                         <div className="mb-1.5 flex items-center gap-2 hover:underline">
                             <div className="font-semibold text-lg">Bill Split AI</div>
